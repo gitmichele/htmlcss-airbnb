@@ -17,6 +17,8 @@ body{
     height: 100vh;
     background-size: cover;
     position: relative;
+    border-radius: 50px;
+    border: 10px solid white;
 }
 
 /* immagine di background personalizzata per ogni sezione */
@@ -34,6 +36,7 @@ body{
 
 /* leggera sfocatura dell'immagine per far risaltare la scritta */
 /* funziona anche solo con background ed height (perche?) */
+/* uso calc per il bordo dell'overlay perchè mettendo il bordo al container penso che vada a sfasarmi le curvature di overlay e immagine ma non mi è chiarissimo*/
 .overlay{
     position: absolute;
     top: 0;
@@ -42,6 +45,8 @@ body{
     width: 100%;
     background-color: #00000040;
     height: 100%;
+    border-radius: calc(50px - 10px);
+    /* non dovrebbe essere 50-10-10. Eppure viene giusto così */
 }
 
 /* nomi centrati rispetto all'immagine */
