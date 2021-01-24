@@ -19,25 +19,41 @@ body{
     position: relative;
 }
 
-/* leggera sfocatura dell'immagine per far risaltare la scritta */
-.overlay{
-    background-color: #00000040;
-    height: 100%;
-}
-
 /* immagine di background personalizzata per ogni sezione */
 .container#trento{
     background-image: url(https://dpv87w1mllzh1.cloudfront.net/alitalia_discover/attachments/data/000/001/690/original/Venice-What-to-see-in-Trent-Trentino-Alto-Adige-1920x1080.jpg?1531228683);
 }
 
-/* nome della città */
+.container#fassa{
+    background-image: url(https://i.pinimg.com/originals/04/c4/81/04c481ff99882225aec41723919a1445.jpg);
+}
+
+.container#brenta{
+    background-image: url(https://www.hotelcanada.info/var/ezdemo_site/storage/images/media/images/la-tua-vacanza/dolomiti/2946-1-ita-IT/Dolomiti.jpg);
+}
+
+/* leggera sfocatura dell'immagine per far risaltare la scritta */
+/* funziona anche solo con background ed height (perche?) */
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00000040;
+    height: 100%;
+}
+
+/* nomi centrati rispetto all'immagine */
+/* aggiungo text align per centrare il sottotilo relativamente al titolo */
 .names{
     position: absolute;
     text-shadow: 5px 5px 5px #000000;
-    font-size: 4em;
+    font-size: 3em;
     color: white;
     font-weight: 800;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
