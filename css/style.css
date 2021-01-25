@@ -24,11 +24,11 @@ body{
 
 /* immagine di background personalizzata per ogni sezione */
 .container#trento{
-    background-image: url(https://dpv87w1mllzh1.cloudfront.net/alitalia_discover/attachments/data/000/001/690/original/Venice-What-to-see-in-Trent-Trentino-Alto-Adige-1920x1080.jpg?1531228683);
+    background-image: url(https://hotelmontana.it/wp-content/uploads/2019/04/Trento.jpg);
 }
 
 .container#fassa{
-    background-image: url(https://i.pinimg.com/originals/04/c4/81/04c481ff99882225aec41723919a1445.jpg);
+    background-image: url(https://www.ilovevaldinon.it/wp-content/uploads/2020/03/passi-trentino-alto-adige.jpg);
 }
 
 .container#brenta{
